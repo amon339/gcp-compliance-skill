@@ -2,7 +2,11 @@
 
 > 基于中国《药物临床试验质量管理规范》（2026 年修订版）的 Cursor Agent Skill。将具体实操问题映射到具体条款，输出**条款级、可追溯、可执行**的合规判定。
 
+[![Release](https://img.shields.io/github/v/release/amon339/gcp-compliance-skill)](https://github.com/amon339/gcp-compliance-skill/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Cursor Skill](https://img.shields.io/badge/Cursor-Agent%20Skill-000000)](https://cursor.com)
+
+**快速开始**：[下载最新 Release](https://github.com/amon339/gcp-compliance-skill/releases/latest) → Cursor Settings → Skills → Import `gcp-compliance.skill`
 
 ---
 
@@ -67,7 +71,7 @@
 
 ### 方式一：导入 `.skill` 包（推荐）
 
-1. 下载本仓库中的 [`gcp-compliance.skill`](./gcp-compliance.skill)
+1. 从 [Releases 页面](https://github.com/amon339/gcp-compliance-skill/releases/latest) 下载 `gcp-compliance.skill`
 2. 打开 Cursor → **Settings** → **Rules** → **Skills**
 3. 点击 **Import**，选择 `gcp-compliance.skill`
 
@@ -186,9 +190,18 @@ zip -r gcp-compliance.skill gcp-compliance/
 
 ---
 
+## 更新日志
+
+详见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## 贡献
 
-欢迎提交 Issue 反馈条款索引遗漏、判定示例补充、措辞优化等。Pull Request 请确保不修改 GCP 原文的准确性表述。
+欢迎提交 [Issue](https://github.com/amon339/gcp-compliance-skill/issues) 反馈条款索引遗漏、判定示例补充、措辞优化等。Pull Request 请确保不修改 GCP 原文的准确性表述。
+
+## 相关链接
+
+- [最新 Release 下载](https://github.com/amon339/gcp-compliance-skill/releases/latest)
+- [问题反馈](https://github.com/amon339/gcp-compliance-skill/issues/new/choose)
 
 ---
 
